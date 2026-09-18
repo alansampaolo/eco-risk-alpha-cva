@@ -18,7 +18,7 @@ The workflow proceeds through:
 
 - data cleaning and preprocessing;
 - exploratory data analysis;
-- OLS regression with heteroskedasticity-robust standard errors;
+- OLS regression with heteroskedasticity robust standard errors;
 - Random Forest and Gradient Boosting models;
 - conversion of CDS spreads into hazard rates and survival probabilities;
 - CVA computation;
@@ -28,9 +28,9 @@ The workflow proceeds through:
 
 The project uses three datasets:
 
-- `companies_data.csv` — company-level data including ESG variables, financial fundamentals and observed 5-year CDS spreads;
+- `companies_data.csv` — company level data including ESG variables, financial fundamentals and observed 5-year CDS spreads;
 - `irs_expected_exposure.csv` — Expected Exposure profile for the 5-year payer IRS;
-- `eur_zero_rates.csv` — EUR zero-rate term structure used to compute discount factors.
+- `eur_zero_rates.csv` — EUR zero rate term structure used to compute discount factors.
 
 The raw corporate dataset contains approximately 60 anonymized firms.
 
@@ -59,7 +59,7 @@ The preprocessing stage includes:
 
 `ESG = 0.5 * E + 0.3 * S + 0.2 * G`
 
-- sector-wise median imputation for selected missing financial variables;
+- sector wise median imputation for selected missing financial variables;
 - log transformation of Market Capitalization and Carbon Intensity to reduce skewness and the influence of extreme values.
 
 After preprocessing, approximately 50 observations are used in the main modeling exercises.
