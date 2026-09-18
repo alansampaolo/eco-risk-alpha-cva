@@ -1,4 +1,4 @@
-# ec# Eco-Risk Alpha: ESG, CDS Spreads and Counterparty CVA
+# Eco-Risk Alpha: ESG, CDS Spreads and Counterparty CVA
 
 This project investigates whether stronger ESG performance is associated with lower corporate credit risk and whether this relationship translates into lower counterparty Credit Valuation Adjustment (CVA).
 
