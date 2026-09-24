@@ -1,4 +1,4 @@
-# Eco-Risk Alpha: ESG, CDS Spreads and Counterparty CVA
+# Eco Risk Alpha: ESG, CDS Spreads and Counterparty CVA
 
 This project investigates whether ESG characteristics provide information for predicting corporate CDS spreads beyond traditional financial fundamentals, and whether this information can be relevant for counterparty credit-risk assessment through CVA.
 
