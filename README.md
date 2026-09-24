@@ -1,6 +1,6 @@
 # Eco-Risk Alpha: ESG, CDS Spreads and Counterparty CVA
 
-This project investigates whether stronger ESG performance is associated with lower corporate credit risk and whether this relationship translates into lower counterparty Credit Valuation Adjustment (CVA).
+This project investigates whether ESG characteristics provide information for predicting corporate CDS spreads beyond traditional financial fundamentals, and whether this information can be relevant for counterparty credit-risk assessment through CVA.
 
 The analysis combines econometric modeling, machine learning and counterparty credit risk calculations using a synthetic but realistic corporate dataset.
 
@@ -8,9 +8,13 @@ The analysis combines econometric modeling, machine learning and counterparty cr
 
 The project addresses three main questions:
 
-1. Do ESG variables provide meaningful information about corporate CDS spreads beyond traditional financial fundamentals?
-2. Can this relationship affect the computation of counterparty CVA?
-3. Is there evidence of a systematic green premium across firms?
+1. Do ESG variables provid predictive information about corporate CDS spreads beyond traditional financial fundamentals?
+2. If ESG contributes to CDS prediction, how can this information propagate into counterparty CVA estimates?
+3. Is there evidence of a systematic market-model CVA gap that could be related to a green premium?
+
+The broader objective is to assess whether ESG characteristics represent a meaningful signal for credit-risk modeling.
+
+Any robust predictive relationship should not be interpreted as causal, but could generate hypotheses for future causal research investigating whether ESG characteristics actually affect corporate credit risk.
 
 The analysis is based on a benchmark portfolio consisting of a 5-year payer Interest Rate Swap (IRS).
 
@@ -189,11 +193,12 @@ These diagnostics consistently indicate a weak and non-systematic ESG contributi
 - ESG Score shows little direct association with observed CDS spreads.
 - The ESG coefficient in the OLS regression is statistically insignificant.
 - Random Forest and Gradient Boosting also assign limited importance to ESG variables.
-- Firm size, leverage and profitability indicators are more relevant drivers of CDS spreads.
+- Firm size, leverage and profitability indicators are more relevant predictive drivers of CDS spreads in the estimated models.
 - The predictive models exhibit limited out-of-sample performance due to the small dataset.
 - Model-implied and market-based CVA differences are heterogeneous across firms and centered around zero.
 - No systematic green premium is identified in the sample.
 - The project highlights the importance of data quality and sample size when studying the relationship between sustainability and credit risk.
+- The weak ESG signal found in this sample does not establish the absence of a causal ESG effect; testing causality would require a different research design.
 
 ## Repository Structure
 
