@@ -22,6 +22,7 @@ Observed and predicted CDS spreads were also mapped into **unilateral CVA** on a
 - **Fundamentals dominate:** in both tree-based models, market capitalisation and leverage are the most important features, while ESG ranks low.
 - **Limited predictive power overall:** no model beats the sample mean out of sample (negative cross-validated R²), reflecting the small dataset.
 - **CVA:** the difference between actual and predicted CVA is centred around zero on average, but widely dispersed across firms, consistent with the models' limited accuracy at firm level.
+- A weak ESG signal in this sample does not rule out a causal effect: testing it would require richer data and a different research design.
 
 ## Repository
 
