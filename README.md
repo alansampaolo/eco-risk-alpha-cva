@@ -6,7 +6,7 @@ Team case study by Deloitte, Summer School "Data Science for Sustainable Finance
 
 The objective was to **test whether ESG characteristics provide incremental predictive information for CDS spreads beyond traditional financial fundamentals**. Any predictive relationship could then **motivate future causal analysis** to investigate whether ESG characteristics actually affect credit risk.
 
-Observed and predicted CDS spreads were also mapped into **unilateral CVA** on a 5-year payer interest rate swap, to assess model accuracy in counterparty credit-risk terms: for an accurate model, the difference between actual and predicted CVA should be centred around zero.
+Observed and predicted CDS spreads were also mapped into **unilateral CVA** on a 5-year payer interest rate swap (to assess model accuracy in counterparty credit-risk terms).
 
 ## Setup
 
